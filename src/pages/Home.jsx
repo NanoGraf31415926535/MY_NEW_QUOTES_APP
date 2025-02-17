@@ -1,10 +1,10 @@
 // src/pages/Home.jsx
 import React, { useState, useEffect } from 'react';
-import QuoteCard from '/Users/artemsakhniuk/Desktop/React/my-new-quotes-app/src/components/QuoteCard.jsx';
-import QuoteActions from '/Users/artemsakhniuk/Desktop/React/my-new-quotes-app/src/components/QuoteActions.jsx';
-import FavoriteQuotes from '/Users/artemsakhniuk/Desktop/React/my-new-quotes-app/src/components/FavoriteQuotes.jsx';
-import fetchQuote from '/Users/artemsakhniuk/Desktop/React/my-new-quotes-app/src/utilitis/fetchQuote.js';
-import ThemeSelector from '/Users/artemsakhniuk/Desktop/React/my-new-quotes-app/src/components/ThemeSelector.jsx'; 
+import QuoteCard from '/src/components/QuoteCard.jsx';
+import QuoteActions from '/src/components/QuoteActions.jsx';
+import FavoriteQuotes from '/src/components/FavoriteQuotes.jsx';
+import fetchQuote from '/src/utilitis/fetchQuote.js';
+import ThemeSelector from '/src/components/ThemeSelector.jsx'; 
 
 function Home() {
   const [quote, setQuote] = useState('Loading quote...');
@@ -47,7 +47,7 @@ function Home() {
     <div className={`h-screen flex ${theme === 'dark' ? 'dark' : ''}`}>
       {/* Left Dark Section */}
       <div className="w-1/2 bg-gray-900 text-white flex flex-col items-center justify-center">
-        <ThemeSelector onThemeChange={handleThemeChange} /> {/* Add ThemeSelector */}
+        <ThemeSelector onThemeChange={handleThemeChange} />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-12 w-12 mb-4"
