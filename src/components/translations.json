@@ -1,0 +1,20 @@
+{
+    "FavoriteQuotes": {
+      "title": "Your Favorite Quotes"
+    },
+    "QuoteActions": {
+      "share": "Share",
+      "save": "Save",
+      "regenerate": "Regenerate"
+    },
+    "ThemeSelector": {
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "Home": {
+      "loadingQuote": "Loading quote...",
+      "quotely": "Quotely",
+      "motivation": "Your daily dose of motivation",
+      "failedFetch": "Failed to fetch quote. Please check your network connection and try again later."
+    }
+  }
