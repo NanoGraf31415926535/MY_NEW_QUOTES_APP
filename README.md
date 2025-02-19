@@ -1,6 +1,9 @@
 # Quotely - Your Daily Dose of Motivation
 
 Quotely is a React-based web application that provides users with daily motivational quotes. It features a clean and modern design with a dark/light theme toggle, language selection (English, German, French), and the ability to save favorite quotes.
+<img width="1680" alt="Screenshot 2025-02-19 at 11 06 07" src="https://github.com/user-attachments/assets/584680a4-35ec-4df3-bd2e-003b5a294609" />
+
+
 
 ## Features
 
